@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+### Fixed
+- scripts/validate.py：讀取文字檔時明確指定 UTF-8，修正在 Windows（預設 cp950）直接執行會 UnicodeDecodeError 的問題；檢查項目與判定邏輯不變，不影響任何 Collection 或 AS 編號。
+
 ## 0.1.0 — 2026-10-09
 
 ### Added

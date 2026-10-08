@@ -9,7 +9,7 @@ errors=[]
 def check(ok, message):
     if not ok: errors.append(message)
 
-catalog=json.loads((ROOT/'catalog.json').read_text())
+catalog=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
 check(catalog['name']=='ai-to-agent-style-systems','Repo name mismatch')
 check(catalog['version']=='0.1.0','Version mismatch')
 styles=[s for c in catalog['collections'] for s in c['styles']]
@@ -17,7 +17,7 @@ check([s['id'] for s in styles]==[f'AS-{i:03d}' for i in range(1,10)],'Style IDs
 check(catalog['next_style_id']=='AS-010','Next ID mismatch')
 for s in styles:
     for k in ('spec','prompt','source_cover','card'): check((ROOT/s[k]).is_file(),f'Missing {s[k]}')
-manifest=json.loads((ROOT/'collections/01/sources/manifest.json').read_text())
+manifest=json.loads((ROOT/'collections/01/sources/manifest.json').read_text(encoding='utf-8'))
 check(len(manifest)==63,'Source count mismatch')
 for m in manifest:
     p=ROOT/m['path']
@@ -40,14 +40,14 @@ for p in ROOT.rglob('*.png'):
     check(ended,f'No PNG IEND {p}')
     if '/sources/' in p.as_posix(): check(struct.unpack('>II',b[16:24])==(2160,2700),f'Source size mismatch {p}')
 
-spec=(ROOT/'collections/01/SPECIFICATION.md').read_text()
+spec=(ROOT/'collections/01/SPECIFICATION.md').read_text(encoding='utf-8')
 rules=re.findall(r'^\| (\d{3}-R\d+) \|',spec,re.M)
 check(len(rules)==88 and len(set(rules))==88,'Rule count or uniqueness mismatch')
 questions=re.findall(r'^\| (Q-[\w-]+) \|',spec,re.M)
 check(len(questions)==13,'Open question count mismatch')
 for i,s in enumerate(styles,3):
     original=re.search(rf'^## {i}\..*?(?=^## \d+\.|\Z)',spec,re.M|re.S).group().strip()
-    check(original in (ROOT/s['spec']).read_text(),f'Split spec drift {s["id"]}')
+    check(original in (ROOT/s['spec']).read_text(encoding='utf-8'),f'Split spec drift {s["id"]}')
 
 class Links(HTMLParser):
     def __init__(self): super().__init__();self.links=[];self.ids=set()
@@ -59,7 +59,7 @@ class Links(HTMLParser):
 
 link_count=0
 for p in list(ROOT.rglob('*.md'))+list(ROOT.rglob('*.html')):
-    text=p.read_text();parser=Links();parser.feed(text)
+    text=p.read_text(encoding='utf-8');parser=Links();parser.feed(text)
     links=parser.links+re.findall(r'\]\(([^)\s]+)(?:\s+"[^"]*")?\)',text)
     for href in links:
         if urlsplit(href).scheme or href.startswith('//'):continue
@@ -69,7 +69,7 @@ for p in list(ROOT.rglob('*.md'))+list(ROOT.rglob('*.html')):
         check(target.is_relative_to(ROOT),f'Outside-root link {p}: {href}')
         check(target.exists(),f'Broken link {p}: {href}')
         if anchor and target.suffix=='.html' and target.exists():
-            ap=Links();ap.feed(target.read_text());check(anchor in ap.ids,f'Broken anchor {href}')
+            ap=Links();ap.feed(target.read_text(encoding='utf-8'));check(anchor in ap.ids,f'Broken anchor {href}')
 
 for p in ROOT.rglob('*'):
     if p.is_file():
