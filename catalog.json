@@ -1,0 +1,115 @@
+{
+  "name": "ai-to-agent-style-systems",
+  "version": "0.1.0",
+  "date": "2026-10-09",
+  "license": "reserved",
+  "next_style_id": "AS-010",
+  "collections": [
+    {
+      "id": "01",
+      "name": "AS Collection 01",
+      "path": "collections/01/README.md",
+      "styles": [
+        {
+          "id": "AS-001",
+          "name": "朱漆直書",
+          "english_name": "Vermilion Script",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-001/SPEC.md",
+          "prompt": "collections/01/styles/AS-001/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-001/P01.png",
+          "card": "collections/01/cards/02.png"
+        },
+        {
+          "id": "AS-002",
+          "name": "青金絲緞",
+          "english_name": "Satin Teal & Gold",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-002/SPEC.md",
+          "prompt": "collections/01/styles/AS-002/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-002/P01.png",
+          "card": "collections/01/cards/03.png"
+        },
+        {
+          "id": "AS-003",
+          "name": "深海時刻",
+          "english_name": "Abyss Hour",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-003/SPEC.md",
+          "prompt": "collections/01/styles/AS-003/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-003/P01.png",
+          "card": "collections/01/cards/04.png"
+        },
+        {
+          "id": "AS-004",
+          "name": "益生寵愛・莓果貼紙",
+          "english_name": "Berry Sticker",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-004/SPEC.md",
+          "prompt": "collections/01/styles/AS-004/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-004/P01.png",
+          "card": "collections/01/cards/05.png"
+        },
+        {
+          "id": "AS-005",
+          "name": "EASY CURE・黃綠雙環",
+          "english_name": "Twin Ring System",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-005/SPEC.md",
+          "prompt": "collections/01/styles/AS-005/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-005/P01.png",
+          "card": "collections/01/cards/06.png"
+        },
+        {
+          "id": "AS-006",
+          "name": "翡翠禮匣",
+          "english_name": "Emerald Coffret",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-006/SPEC.md",
+          "prompt": "collections/01/styles/AS-006/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-006/P01.png",
+          "card": "collections/01/cards/07.png"
+        },
+        {
+          "id": "AS-007",
+          "name": "墨白桐花",
+          "english_name": "Ink & Blossom",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-007/SPEC.md",
+          "prompt": "collections/01/styles/AS-007/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-007/P01.png",
+          "card": "collections/01/cards/08.png"
+        },
+        {
+          "id": "AS-008",
+          "name": "潮汐實證",
+          "english_name": "Tidal Proof",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-008/SPEC.md",
+          "prompt": "collections/01/styles/AS-008/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-008/P01.png",
+          "card": "collections/01/cards/09.png"
+        },
+        {
+          "id": "AS-009",
+          "name": "橙鞍工坊",
+          "english_name": "Orange Atelier",
+          "collection": "01",
+          "spec_version": "v0.1",
+          "spec": "collections/01/styles/AS-009/SPEC.md",
+          "prompt": "collections/01/styles/AS-009/PROMPT.md",
+          "source_cover": "collections/01/sources/AS-009/P01.png",
+          "card": "collections/01/cards/10.png"
+        }
+      ]
+    }
+  ]
+}

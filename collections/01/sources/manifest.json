@@ -1,0 +1,443 @@
+[
+  {
+    "source_id": "AS-001/P01",
+    "path": "collections/01/sources/AS-001/P01.png",
+    "archive": "朱漆直書設計系統圖卡-png.zip",
+    "original_filename": "壹 封面.png",
+    "sha256": "c03a6189ed38f6ec47978d3f00ddfd5d58e739551eb563ebcff43f63692f4287"
+  },
+  {
+    "source_id": "AS-001/P02",
+    "path": "collections/01/sources/AS-001/P02.png",
+    "archive": "朱漆直書設計系統圖卡-png.zip",
+    "original_filename": "貳 色彩.png",
+    "sha256": "7bab73b5a7a524ed38d55d59b4bd04462ea487f800ee1c07179021fd982aa6b6"
+  },
+  {
+    "source_id": "AS-001/P03",
+    "path": "collections/01/sources/AS-001/P03.png",
+    "archive": "朱漆直書設計系統圖卡-png.zip",
+    "original_filename": "參 字體.png",
+    "sha256": "d8277e1bcb373da693a7ba3a930d9f2809e6af9e1da9c0957cd22b7bcf439727"
+  },
+  {
+    "source_id": "AS-001/P04",
+    "path": "collections/01/sources/AS-001/P04.png",
+    "archive": "朱漆直書設計系統圖卡-png.zip",
+    "original_filename": "肆 元件.png",
+    "sha256": "5936f19d832bf0f5d8ca38d5981c6d17ecdf21cbbeae72450db8a1cd422a5f7e"
+  },
+  {
+    "source_id": "AS-001/P05",
+    "path": "collections/01/sources/AS-001/P05.png",
+    "archive": "朱漆直書設計系統圖卡-png.zip",
+    "original_filename": "伍 版面.png",
+    "sha256": "7e801380dcab36496b0f98a8a898bbffac32e02da245ce0dd6947ec465288114"
+  },
+  {
+    "source_id": "AS-001/P06",
+    "path": "collections/01/sources/AS-001/P06.png",
+    "archive": "朱漆直書設計系統圖卡-png.zip",
+    "original_filename": "陸 應用.png",
+    "sha256": "4e47cc4adcc2ceaef2d75937d5cd7f22df46d39ed616b16876873a679b251883"
+  },
+  {
+    "source_id": "AS-001/P07",
+    "path": "collections/01/sources/AS-001/P07.png",
+    "archive": "朱漆直書設計系統圖卡-png.zip",
+    "original_filename": "柒 守則.png",
+    "sha256": "fb60bbc1913b4c8a7eb41a838130666e323b2eed4421bc2e3725d4edefb1c568"
+  },
+  {
+    "source_id": "AS-002/P01",
+    "path": "collections/01/sources/AS-002/P01.png",
+    "archive": "青金絲緞設計系統圖卡-png.zip",
+    "original_filename": "01 封面.png",
+    "sha256": "8e4ca604a3c035e69f5cc74f9cc14cd7a274a486ecfc9038112eb44073f40ddc"
+  },
+  {
+    "source_id": "AS-002/P02",
+    "path": "collections/01/sources/AS-002/P02.png",
+    "archive": "青金絲緞設計系統圖卡-png.zip",
+    "original_filename": "02 色彩.png",
+    "sha256": "28729cf24e3dfe221244a78cefdb5a4613bf6308d7320bfdac14153da3370833"
+  },
+  {
+    "source_id": "AS-002/P03",
+    "path": "collections/01/sources/AS-002/P03.png",
+    "archive": "青金絲緞設計系統圖卡-png.zip",
+    "original_filename": "03 字體.png",
+    "sha256": "a5a56df01c35ca7b91f2ce2b273d33bcef82b2af8595ed084b1568184e5817fa"
+  },
+  {
+    "source_id": "AS-002/P04",
+    "path": "collections/01/sources/AS-002/P04.png",
+    "archive": "青金絲緞設計系統圖卡-png.zip",
+    "original_filename": "04 元件.png",
+    "sha256": "3fd4e9a2e05662abfcff057d1729b4790ce3bae12105b435a0a3ea2f3c0264cc"
+  },
+  {
+    "source_id": "AS-002/P05",
+    "path": "collections/01/sources/AS-002/P05.png",
+    "archive": "青金絲緞設計系統圖卡-png.zip",
+    "original_filename": "05 版面.png",
+    "sha256": "8949afbb5484ccb716c57e71d5af551e0a23e8d06ce63f12627e3d4692ee31de"
+  },
+  {
+    "source_id": "AS-002/P06",
+    "path": "collections/01/sources/AS-002/P06.png",
+    "archive": "青金絲緞設計系統圖卡-png.zip",
+    "original_filename": "06 應用.png",
+    "sha256": "657f26f6dbef7c8a51369d0788986b5abb6e2014027fb6b17e3c4e890b658e27"
+  },
+  {
+    "source_id": "AS-002/P07",
+    "path": "collections/01/sources/AS-002/P07.png",
+    "archive": "青金絲緞設計系統圖卡-png.zip",
+    "original_filename": "07 規則.png",
+    "sha256": "4a62d7c296adbf42537b8ef7fa883cf7756f3213d01cd08ec26ecee61e7ba894"
+  },
+  {
+    "source_id": "AS-003/P01",
+    "path": "collections/01/sources/AS-003/P01.png",
+    "archive": "深海時刻設計系統圖卡-png.zip",
+    "original_filename": "01 封面.png",
+    "sha256": "337740ce808f893f2f5ca282f1529f74af4e5bddb6631eabd074a46bb3e5f0fe"
+  },
+  {
+    "source_id": "AS-003/P02",
+    "path": "collections/01/sources/AS-003/P02.png",
+    "archive": "深海時刻設計系統圖卡-png.zip",
+    "original_filename": "02 色彩.png",
+    "sha256": "775b4d95684adee03e461e3f4116ee6912996e7e818e5d2025451eef8bdc7e4e"
+  },
+  {
+    "source_id": "AS-003/P03",
+    "path": "collections/01/sources/AS-003/P03.png",
+    "archive": "深海時刻設計系統圖卡-png.zip",
+    "original_filename": "03 字體.png",
+    "sha256": "d638744f8ebf889600275599fcfcc5248c533c9a7f9129959ff7bd130d18c049"
+  },
+  {
+    "source_id": "AS-003/P04",
+    "path": "collections/01/sources/AS-003/P04.png",
+    "archive": "深海時刻設計系統圖卡-png.zip",
+    "original_filename": "04 元件.png",
+    "sha256": "1a43e09397e69e898ce423ecfc1e9b286b2954c7655ae0b7d23b09398f7f3887"
+  },
+  {
+    "source_id": "AS-003/P05",
+    "path": "collections/01/sources/AS-003/P05.png",
+    "archive": "深海時刻設計系統圖卡-png.zip",
+    "original_filename": "05 版面.png",
+    "sha256": "c3e52c6b0062a65741530b83cb5a0c6e0baa3c61b817bd867b2692b955d91665"
+  },
+  {
+    "source_id": "AS-003/P06",
+    "path": "collections/01/sources/AS-003/P06.png",
+    "archive": "深海時刻設計系統圖卡-png.zip",
+    "original_filename": "06 應用.png",
+    "sha256": "3bb16f4f0152f2bc4ea4129c2cf730d4441ff9eb1762418775388fc0b159b188"
+  },
+  {
+    "source_id": "AS-003/P07",
+    "path": "collections/01/sources/AS-003/P07.png",
+    "archive": "深海時刻設計系統圖卡-png.zip",
+    "original_filename": "07 守則.png",
+    "sha256": "9bdb86e7eadce6705c06ba3f92cdaeb248967d1ad3973966c17d4c3d238a0b66"
+  },
+  {
+    "source_id": "AS-004/P01",
+    "path": "collections/01/sources/AS-004/P01.png",
+    "archive": "益生寵愛 莓果貼紙設計系統-png.zip",
+    "original_filename": "01 封面.png",
+    "sha256": "4f1880d01598982f2e79d9dfda26ebc0a3bf41a8e305bbc7eb945b89a838b914"
+  },
+  {
+    "source_id": "AS-004/P02",
+    "path": "collections/01/sources/AS-004/P02.png",
+    "archive": "益生寵愛 莓果貼紙設計系統-png.zip",
+    "original_filename": "02 Logo 優化.png",
+    "sha256": "7049883395a8a787a71d2556df0b5920f8c607dce70957e4650b4546491c555b"
+  },
+  {
+    "source_id": "AS-004/P03",
+    "path": "collections/01/sources/AS-004/P03.png",
+    "archive": "益生寵愛 莓果貼紙設計系統-png.zip",
+    "original_filename": "03 貼紙版本.png",
+    "sha256": "d094275d7eb335cbfed4c70ed10c799c81f7a2f753ece30afc5163ac65b8c5e8"
+  },
+  {
+    "source_id": "AS-004/P04",
+    "path": "collections/01/sources/AS-004/P04.png",
+    "archive": "益生寵愛 莓果貼紙設計系統-png.zip",
+    "original_filename": "04 色彩.png",
+    "sha256": "ff93dd700506551b86e60705a1c1c13c4c8eb6175a236d8443adb1b049c59542"
+  },
+  {
+    "source_id": "AS-004/P05",
+    "path": "collections/01/sources/AS-004/P05.png",
+    "archive": "益生寵愛 莓果貼紙設計系統-png.zip",
+    "original_filename": "05 字體.png",
+    "sha256": "469a1d20d2c5edd29e1dbd02fec2f2370c9cfebbb364501db85c57b6292a259a"
+  },
+  {
+    "source_id": "AS-004/P06",
+    "path": "collections/01/sources/AS-004/P06.png",
+    "archive": "益生寵愛 莓果貼紙設計系統-png.zip",
+    "original_filename": "06 元件.png",
+    "sha256": "fc8adfcb4995e7dfe1d9bf72aa1c8280c83b03e94796f8a1a832d1ac7ef3bf6a"
+  },
+  {
+    "source_id": "AS-004/P07",
+    "path": "collections/01/sources/AS-004/P07.png",
+    "archive": "益生寵愛 莓果貼紙設計系統-png.zip",
+    "original_filename": "07 應用.png",
+    "sha256": "dc7fa7a46dce0dbf95933fe3fb7159399bbd0362c7b3716a09b03497e5022339"
+  },
+  {
+    "source_id": "AS-005/P01",
+    "path": "collections/01/sources/AS-005/P01.png",
+    "archive": "EASY CURE 黃綠雙環設計系統圖卡-png.zip",
+    "original_filename": "01 封面.png",
+    "sha256": "27b2daf60e015a3527d4150148e02dfc037d152fbe66d5d3ce8440d115c0ecb0"
+  },
+  {
+    "source_id": "AS-005/P02",
+    "path": "collections/01/sources/AS-005/P02.png",
+    "archive": "EASY CURE 黃綠雙環設計系統圖卡-png.zip",
+    "original_filename": "02 Logo 優化.png",
+    "sha256": "ca8eedf2049d1a19049a2055129af29537d3db5e487de675c95f01cdeda4e0aa"
+  },
+  {
+    "source_id": "AS-005/P03",
+    "path": "collections/01/sources/AS-005/P03.png",
+    "archive": "EASY CURE 黃綠雙環設計系統圖卡-png.zip",
+    "original_filename": "03 Logo 版本.png",
+    "sha256": "4598a1523c487c3758f971875a7e354afb4eeaa6c456dba44604be02b3c68cae"
+  },
+  {
+    "source_id": "AS-005/P04",
+    "path": "collections/01/sources/AS-005/P04.png",
+    "archive": "EASY CURE 黃綠雙環設計系統圖卡-png.zip",
+    "original_filename": "04 色彩.png",
+    "sha256": "9f901dc7bae51dd7ff643a130c28721bb3dfc6d979d569ee1476d7b28daab687"
+  },
+  {
+    "source_id": "AS-005/P05",
+    "path": "collections/01/sources/AS-005/P05.png",
+    "archive": "EASY CURE 黃綠雙環設計系統圖卡-png.zip",
+    "original_filename": "05 字體.png",
+    "sha256": "490faeeeaad848d45c8c45c905208bfc8444c15da198f7b40d7a0d8b83af3c0f"
+  },
+  {
+    "source_id": "AS-005/P06",
+    "path": "collections/01/sources/AS-005/P06.png",
+    "archive": "EASY CURE 黃綠雙環設計系統圖卡-png.zip",
+    "original_filename": "06 元件.png",
+    "sha256": "c9cdcea4d12de24b49a4bb40d3cf312d945dea1dcf93414502c0133714cac5bf"
+  },
+  {
+    "source_id": "AS-005/P07",
+    "path": "collections/01/sources/AS-005/P07.png",
+    "archive": "EASY CURE 黃綠雙環設計系統圖卡-png.zip",
+    "original_filename": "07 應用.png",
+    "sha256": "45ab05cf95c8ea0963dbb9e4d6833022f516eb7f43aa59413cc3c7b9f98bc714"
+  },
+  {
+    "source_id": "AS-006/P01",
+    "path": "collections/01/sources/AS-006/P01.png",
+    "archive": "翡翠禮匣設計系統圖卡-png.zip",
+    "original_filename": "I 封面.png",
+    "sha256": "cff73c47e86f79d67cf11fe39d27e98424599758f19c46e0e84bacba3551dbcb"
+  },
+  {
+    "source_id": "AS-006/P02",
+    "path": "collections/01/sources/AS-006/P02.png",
+    "archive": "翡翠禮匣設計系統圖卡-png.zip",
+    "original_filename": "II 色彩.png",
+    "sha256": "297af6723c5527007e8ac64588843cf8295b76c9d889cd9ab6cd31ba06d30b3e"
+  },
+  {
+    "source_id": "AS-006/P03",
+    "path": "collections/01/sources/AS-006/P03.png",
+    "archive": "翡翠禮匣設計系統圖卡-png.zip",
+    "original_filename": "III 字體.png",
+    "sha256": "87cb217f826905d37182fca8fb184df881537906d5a43de59f4ba923ad25bf01"
+  },
+  {
+    "source_id": "AS-006/P04",
+    "path": "collections/01/sources/AS-006/P04.png",
+    "archive": "翡翠禮匣設計系統圖卡-png.zip",
+    "original_filename": "IV 元件.png",
+    "sha256": "b1c0f90c1fb3221850e7beecd198a91b73af60f0d4377e81626968a930003f10"
+  },
+  {
+    "source_id": "AS-006/P05",
+    "path": "collections/01/sources/AS-006/P05.png",
+    "archive": "翡翠禮匣設計系統圖卡-png.zip",
+    "original_filename": "V 版面.png",
+    "sha256": "e775f8a79f74b21c2ce96f0eb3b2d911c39da340ea59e49fd9c1a15e725ea0b6"
+  },
+  {
+    "source_id": "AS-006/P06",
+    "path": "collections/01/sources/AS-006/P06.png",
+    "archive": "翡翠禮匣設計系統圖卡-png.zip",
+    "original_filename": "VI 應用.png",
+    "sha256": "e02f9924a6fc86c0839a48a9c787ad0bffdc5786c6c80e2e0c8e5d3e9d04f220"
+  },
+  {
+    "source_id": "AS-006/P07",
+    "path": "collections/01/sources/AS-006/P07.png",
+    "archive": "翡翠禮匣設計系統圖卡-png.zip",
+    "original_filename": "VII 守則.png",
+    "sha256": "e01cd99786b1622430d07e489a94e317b54edf1ade64e1a8d8e4d2638c4529c7"
+  },
+  {
+    "source_id": "AS-007/P01",
+    "path": "collections/01/sources/AS-007/P01.png",
+    "archive": "墨白桐花設計系統圖卡-png.zip",
+    "original_filename": "01 封面・正片.png",
+    "sha256": "3db7cba90a674eb37817581b8983d2f1f364688b0e903e56e31521e609936194"
+  },
+  {
+    "source_id": "AS-007/P02",
+    "path": "collections/01/sources/AS-007/P02.png",
+    "archive": "墨白桐花設計系統圖卡-png.zip",
+    "original_filename": "02 色彩・負片.png",
+    "sha256": "189a83f11b132802178f8343a30711c7b187c25d5bc8f28ac78e7821e2d0508e"
+  },
+  {
+    "source_id": "AS-007/P03",
+    "path": "collections/01/sources/AS-007/P03.png",
+    "archive": "墨白桐花設計系統圖卡-png.zip",
+    "original_filename": "03 字體・正片.png",
+    "sha256": "f8a329e5803eef96b168c10a3d0e7ec9f233dacd9eb94ded4b4373c04555c4af"
+  },
+  {
+    "source_id": "AS-007/P04",
+    "path": "collections/01/sources/AS-007/P04.png",
+    "archive": "墨白桐花設計系統圖卡-png.zip",
+    "original_filename": "04 元件・負片.png",
+    "sha256": "d2f549ee8592981aee9bf9bb5610db822f9effdfbdea1ab28aa078eabf583afb"
+  },
+  {
+    "source_id": "AS-007/P05",
+    "path": "collections/01/sources/AS-007/P05.png",
+    "archive": "墨白桐花設計系統圖卡-png.zip",
+    "original_filename": "05 版面・正片.png",
+    "sha256": "12816f44cf21d662bbfb8d08fa0318ba655408a9ebca66b8be1e71da45489a7d"
+  },
+  {
+    "source_id": "AS-007/P06",
+    "path": "collections/01/sources/AS-007/P06.png",
+    "archive": "墨白桐花設計系統圖卡-png.zip",
+    "original_filename": "06 應用・負片.png",
+    "sha256": "22d3419a838cb0f4ba8ae5b81bf23d6fe25a6408796cf1b510bd9366b60d0ec7"
+  },
+  {
+    "source_id": "AS-007/P07",
+    "path": "collections/01/sources/AS-007/P07.png",
+    "archive": "墨白桐花設計系統圖卡-png.zip",
+    "original_filename": "07 守則・正片.png",
+    "sha256": "05451b441f30d6feae0044deb9cbb6180826367006c021e672a3681c6b090640"
+  },
+  {
+    "source_id": "AS-008/P01",
+    "path": "collections/01/sources/AS-008/P01.png",
+    "archive": "潮汐實證設計系統圖卡-png.zip",
+    "original_filename": "01 封面.png",
+    "sha256": "59b52f599b731c19ddf81552bdf3475772d26aa25ba04b848a7335667573d604"
+  },
+  {
+    "source_id": "AS-008/P02",
+    "path": "collections/01/sources/AS-008/P02.png",
+    "archive": "潮汐實證設計系統圖卡-png.zip",
+    "original_filename": "02 色彩.png",
+    "sha256": "806ab9a0427a254c183a2e5de294bca534aacb9be755993787d89eb2cb5657ea"
+  },
+  {
+    "source_id": "AS-008/P03",
+    "path": "collections/01/sources/AS-008/P03.png",
+    "archive": "潮汐實證設計系統圖卡-png.zip",
+    "original_filename": "03 字體.png",
+    "sha256": "6408cca6d8086a3ab871b49c87d243794b71147967620ec73fcb381a851a7b29"
+  },
+  {
+    "source_id": "AS-008/P04",
+    "path": "collections/01/sources/AS-008/P04.png",
+    "archive": "潮汐實證設計系統圖卡-png.zip",
+    "original_filename": "04 元件.png",
+    "sha256": "b84263aecfbf849001b269b7d55aa3585c969051bcb2eb9d796ac44759ff2271"
+  },
+  {
+    "source_id": "AS-008/P05",
+    "path": "collections/01/sources/AS-008/P05.png",
+    "archive": "潮汐實證設計系統圖卡-png.zip",
+    "original_filename": "05 版面.png",
+    "sha256": "bb4e630bd000764312cead8481f24b38d193ca46f975039abe1e078d190bc1fb"
+  },
+  {
+    "source_id": "AS-008/P06",
+    "path": "collections/01/sources/AS-008/P06.png",
+    "archive": "潮汐實證設計系統圖卡-png.zip",
+    "original_filename": "06 應用.png",
+    "sha256": "c2f18c6067eec6ba203ee17caeb2e4e5e6e733485f342e3fc7ea0650d2919c4c"
+  },
+  {
+    "source_id": "AS-008/P07",
+    "path": "collections/01/sources/AS-008/P07.png",
+    "archive": "潮汐實證設計系統圖卡-png.zip",
+    "original_filename": "07 守則.png",
+    "sha256": "3a35b1357ee177315220c57b9d0a89dbe4ce11be93ac110afd18104c146c3195"
+  },
+  {
+    "source_id": "AS-009/P01",
+    "path": "collections/01/sources/AS-009/P01.png",
+    "archive": "橙鞍工坊設計系統圖卡-png.zip",
+    "original_filename": "No.1 封面.png",
+    "sha256": "6a6cbcaf84359ba97479fbee42a92bc40a10728d6623fe90436f6014c2cdf87d"
+  },
+  {
+    "source_id": "AS-009/P02",
+    "path": "collections/01/sources/AS-009/P02.png",
+    "archive": "橙鞍工坊設計系統圖卡-png.zip",
+    "original_filename": "No.2 色彩.png",
+    "sha256": "20953b428f90a9a87b06690b87612b9c216cce7ed1ab10185f9dd3af7afccb31"
+  },
+  {
+    "source_id": "AS-009/P03",
+    "path": "collections/01/sources/AS-009/P03.png",
+    "archive": "橙鞍工坊設計系統圖卡-png.zip",
+    "original_filename": "No.3 字體.png",
+    "sha256": "253f140fbf80e2602cec0ed8dfa2708b7f85773f1039eb0198cffd9b53fe88e7"
+  },
+  {
+    "source_id": "AS-009/P04",
+    "path": "collections/01/sources/AS-009/P04.png",
+    "archive": "橙鞍工坊設計系統圖卡-png.zip",
+    "original_filename": "No.4 元件.png",
+    "sha256": "bdc62883d4d59b8c525e60300355b14a3ad912c921a7f6fc67834c0c60e7a955"
+  },
+  {
+    "source_id": "AS-009/P05",
+    "path": "collections/01/sources/AS-009/P05.png",
+    "archive": "橙鞍工坊設計系統圖卡-png.zip",
+    "original_filename": "No.5 版面.png",
+    "sha256": "81d40fc2442bad9b72cbd16f988a999ef511c16b2362bd7087b00b2327dc73c0"
+  },
+  {
+    "source_id": "AS-009/P06",
+    "path": "collections/01/sources/AS-009/P06.png",
+    "archive": "橙鞍工坊設計系統圖卡-png.zip",
+    "original_filename": "No.6 應用.png",
+    "sha256": "060bd059e1d98482c5582f3a140ba347fcfece2b7a797b357ac27364e9917233"
+  },
+  {
+    "source_id": "AS-009/P07",
+    "path": "collections/01/sources/AS-009/P07.png",
+    "archive": "橙鞍工坊設計系統圖卡-png.zip",
+    "original_filename": "No.7 守則.png",
+    "sha256": "95f0717dc018fac0c37e5771df2ca95f4c3422ab95836585d0538326d43bcfdc"
+  }
+]
