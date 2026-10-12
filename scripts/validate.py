@@ -84,7 +84,7 @@ for p in list(ROOT.rglob('*.md'))+list(ROOT.rglob('*.html')):
             ap=Links();ap.feed(target.read_text(encoding='utf-8'));check(anchor in ap.ids,f'Broken anchor {href}')
 
 for p in ROOT.rglob('*'):
-    if p.is_file():
+    if p.is_file() and '.git' not in p.relative_to(ROOT).parts:
         check(p.stat().st_size<100*1024*1024,f'File exceeds GitHub limit: {p}')
         check(p.name not in ('.env','id_rsa','id_ed25519'),f'Sensitive file name: {p}')
 

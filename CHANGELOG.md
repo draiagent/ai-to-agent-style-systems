@@ -14,6 +14,7 @@
 ### Fixed
 - 第二批第 09 張收錄最後生成修正版，排除早期版本。
 - scripts/validate.py：讀取文字檔時明確指定 UTF-8，修正在 Windows（預設 cp950）直接執行會 UnicodeDecodeError 的問題；檢查項目與判定邏輯不變。
+- scripts/validate.py：單檔大小與敏感檔名檢查略過 `.git` 目錄，避免 clone 後因 pack 檔超過 100MiB 而誤判失敗；檢查對象仍是專案檔案。
 
 ### Preserved
 - collections/01/ 所有檔案逐位元保持不變；既有授權保留所有權利。
