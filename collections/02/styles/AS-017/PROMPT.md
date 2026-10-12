@@ -1,10 +1,14 @@
-# AS-017 Agent 使用指令
+# AS-017｜紫銅經緯 Agent 指令
 
-先讀 [SPEC.md](SPEC.md) 與 [OPEN-QUESTIONS.md](../../OPEN-QUESTIONS.md)，搭配 [本批共用指令](../../AGENT-INSTRUCTIONS.md)。
+## 1. 使用前提
 
+讀取 [本套規格](SPEC.md)、[本批共用指令](../../AGENT-INSTRUCTIONS.md)與[未決登錄](../../OPEN-QUESTIONS.md)。
 
+## 2. 任務輸入
 
-與第 5 節共用指令一起使用；下列屬 P：操作指令，規則依據為本節 E，不能取代 Q 清單。
+提供主題、受眾、媒材尺寸、必要內容、Logo 與人物素材、署名及驗收要求。
+
+## 3. 風格執行指令
 
 ```text
 風格 ID：AS-017；名稱：紫銅經緯 LOOM。
@@ -14,5 +18,8 @@
 先交付版面計畫與假設清單；僅在任務要求製作時輸出成品。
 ```
 
+## 4. 交付與驗收
+
+交付成品、採用規則 ID、來源頁碼、P 適配說明與未決 Q；不可將未確認項目標為通過。
 
 AI Coach 益力康陳董 x CGM Coach 血糖教練 | 2026 AI to Agent | 2027 AI to AGI Agent

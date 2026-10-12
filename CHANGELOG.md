@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1 — 2026-10-12
+
+### Fixed
+- 首頁同等呈現兩批封面、完整介紹與批次入口。
+- 第一批社群全文新增至 collections/01/SOCIAL-POST.md，原 docs 路徑保留。
+- 兩批 README 與 18 套 SPEC／PROMPT 使用一致章節與欄位；原規則 ID、數值及原始分析全文保留。
+- 本次調整文件呈現，不修改原圖、介紹圖卡或原始 SPECIFICATION。
+
 ## 0.2.0 — 2026-10-12
 
 ### Added

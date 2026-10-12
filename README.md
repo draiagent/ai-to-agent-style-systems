@@ -2,9 +2,16 @@
 
 **讓Agent依據可追溯規格延續品牌風格。** 收錄 Collection 01、02 共 18 套設計系統，持續擴充。
 
-![版本](https://img.shields.io/badge/version-0.2.0-blue)
+![版本](https://img.shields.io/badge/version-0.2.1-blue)
 
-![AS Collection 02封面](collections/02/cards/01.png)
+## 兩批設計系統與完整介紹
+
+| AS Collection 01｜第一批 | AS Collection 02｜第二批 |
+|---|---|
+| ![第一批總覽](collections/01/cards/01.png) | ![第二批總覽](collections/02/cards/01.png) |
+| **AS-001～AS-009**：從品牌視覺建立可追溯設計規則。 | **AS-010～AS-018**：延伸九種視覺語言與執行規格。 |
+| [第一批完整說明](collections/01/SOCIAL-POST.md) · [第一批風格目錄](collections/01/README.md) | [第二批完整說明](collections/02/SOCIAL-POST.md) · [第二批風格目錄](collections/02/README.md) |
+
 
 [風格展示頁](index.html) · [快速開始](docs/QUICKSTART.md) · [批次規則](docs/COLLECTION-POLICY.md) · [驗證紀錄](docs/VALIDATION.md)
 
@@ -73,8 +80,8 @@ E為原圖明訂，O為視覺觀察，P為適配提案，Q為未決問題。第�
 
 ## 版本與後續
 
-Repo 版本 **0.2.0**，日期 **2026-10-12**；兩批来源規格均為 **v0.1**。下一個風格編號 **AS-019**。
-新增 Collection 02，第一批內容原樣保留。後續依實際需求處理 OPEN 問題與驗證各媒材。
+Repo 版本 **0.2.1**，日期 **2026-10-12**；兩批来源規格均為 **v0.1**。下一個風格編號 **AS-019**。
+兩批使用相同文件介面；第一批完整介紹已恢復於首頁並保留原始路徑。原始規格、來源圖片與圖卡均保留。後續依實際需求處理 OPEN 問題與驗證各媒材。
 
 ## 授權與致謝
 
