@@ -11,20 +11,20 @@ def check(ok, message):
 
 catalog=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
 check(catalog['name']=='ai-to-agent-style-systems','Repo name mismatch')
-check(catalog['version']=='0.1.0','Version mismatch')
+check(catalog['version']==(ROOT/'VERSION').read_text(encoding='utf-8').strip(),'Version mismatch')
 styles=[s for c in catalog['collections'] for s in c['styles']]
-check([s['id'] for s in styles]==[f'AS-{i:03d}' for i in range(1,10)],'Style IDs mismatch')
-check(catalog['next_style_id']=='AS-010','Next ID mismatch')
+check([s['id'] for s in styles]==[f'AS-{i:03d}' for i in range(1,19)],'Style IDs mismatch')
+check(catalog['next_style_id']=='AS-019','Next ID mismatch')
 for s in styles:
     for k in ('spec','prompt','source_cover','card'): check((ROOT/s[k]).is_file(),f'Missing {s[k]}')
-manifest=json.loads((ROOT/'collections/01/sources/manifest.json').read_text(encoding='utf-8'))
-check(len(manifest)==63,'Source count mismatch')
+manifest=[m for c in catalog['collections'] for m in json.loads((ROOT/f"collections/{c['id']}/sources/manifest.json").read_text(encoding='utf-8'))]
+check(len(manifest)==126,'Source count mismatch')
 for m in manifest:
     p=ROOT/m['path']
     check(p.is_file(),f'Missing source {p}')
     if p.is_file(): check(hashlib.sha256(p.read_bytes()).hexdigest()==m['sha256'],f'Hash mismatch {p}')
-cards=list((ROOT/'collections/01/cards').glob('*.png'))
-check(len(cards)==10,'Card count mismatch')
+cards=[p for c in catalog['collections'] for p in (ROOT/f"collections/{c['id']}/cards").glob('*.png')]
+check(len(cards)==20,'Card count mismatch')
 png_count=0
 for p in ROOT.rglob('*.png'):
     b=p.read_bytes();png_count+=1
@@ -45,9 +45,21 @@ rules=re.findall(r'^\| (\d{3}-R\d+) \|',spec,re.M)
 check(len(rules)==88 and len(set(rules))==88,'Rule count or uniqueness mismatch')
 questions=re.findall(r'^\| (Q-[\w-]+) \|',spec,re.M)
 check(len(questions)==13,'Open question count mismatch')
-for i,s in enumerate(styles,3):
+for i,s in enumerate(styles[:9],3):
     original=re.search(rf'^## {i}\..*?(?=^## \d+\.|\Z)',spec,re.M|re.S).group().strip()
     check(original in (ROOT/s['spec']).read_text(encoding='utf-8'),f'Split spec drift {s["id"]}')
+
+spec2=(ROOT/'collections/02/SPECIFICATION.md').read_text(encoding='utf-8')
+rules2=re.findall(r'^#### (AS-\d+-R\d+)',spec2,re.M)
+check(len(rules2)==len(set(rules2))==63,'Collection 02 rule groups mismatch')
+questions2=re.findall(r'^\| (?:AS-\d+-Q\d+|G-Q\d+)',spec2,re.M)
+check(len(questions2)==25,'Collection 02 questions mismatch')
+for m in json.loads((ROOT/'collections/02/cards/manifest.json').read_text(encoding='utf-8')):
+    check(hashlib.sha256((ROOT/m['path']).read_bytes()).hexdigest()==m['sha256'],'Card hash mismatch '+m['path'])
+for s in styles[9:]:
+    sid=s['id']
+    source=re.search(r'^## 4\.\d+\. '+sid+r'｜[^\n]+\n(.*?)(?=^## [45]\.|\Z)',spec2,re.M|re.S).group(1)
+    check(source in (ROOT/s['spec']).read_text(encoding='utf-8'),'Split spec drift '+sid)
 
 class Links(HTMLParser):
     def __init__(self): super().__init__();self.links=[];self.ids=set()
@@ -76,6 +88,6 @@ for p in ROOT.rglob('*'):
         check(p.stat().st_size<100*1024*1024,f'File exceeds GitHub limit: {p}')
         check(p.name not in ('.env','id_rsa','id_ed25519'),f'Sensitive file name: {p}')
 
-result={'status':'FAIL' if errors else 'PASS','styles':len(styles),'source_pngs':len(manifest),'cards':len(cards),'pngs_checked':png_count,'rules':len(rules),'open_questions':len(questions),'local_links_checked':link_count,'errors':errors,'not_verified':['license decision','remote publishing','browser interaction','font and color-area accuracy','six-medium generation']}
+result={'status':'FAIL' if errors else 'PASS','styles':len(styles),'source_pngs':len(manifest),'cards':len(cards),'pngs_checked':png_count,'collection01_rules':len(rules),'collection02_rule_groups':len(rules2),'open_questions':len(questions)+len(questions2),'local_links_checked':link_count,'errors':errors,'not_verified':['remote publishing','browser interaction','font and color-area accuracy','six-medium generation']}
 print(json.dumps(result,ensure_ascii=False,indent=2))
 sys.exit(1 if errors else 0)

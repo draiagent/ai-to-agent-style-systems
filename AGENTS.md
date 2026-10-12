@@ -2,7 +2,7 @@
 
 開始修改前讀 README.md、docs/COLLECTION-POLICY.md 及選定Collection的OPEN-QUESTIONS.md。
 
-- Repo固定為ai-to-agent-style-systems；下一批為Collection 02，從AS-010接續，同一Repo，不重編既有ID。
+- Repo固定為ai-to-agent-style-systems；已收錄Collection 01、02；下一編號AS-019，同一Repo，不重編既有ID。
 - 規格E/O/P/Q的含義不可混淆。未決項保持可追溯，沒有確認不得標成已定稿。
 - 一次任務載入共用指令與所選AS，不混用其他AS；必要適配標P。
 - 原始sources PNG不修改。介紹圖卡是生成示例，不是精確字型／色彩面積驗收證據。

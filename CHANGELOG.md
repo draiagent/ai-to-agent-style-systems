@@ -1,9 +1,24 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 — 2026-10-12
+
+### Added
+- Collection 02：AS-010～AS-018，63 張原圖、63 個逐頁規則群與 25 項 OPEN。
+- 九套專用 Agent 指令、共用指令、10 張介紹圖卡與社群文章。
+- 原始來源及介紹圖卡 SHA-256 清單。
+
+### Changed
+- 首頁、展示頁與 catalog 更新為兩批 18 套風格，下一編號 AS-019。
+- 驗證腳本擴充至兩批，保留既有 UTF-8 相容修正。
 
 ### Fixed
-- scripts/validate.py：讀取文字檔時明確指定 UTF-8，修正在 Windows（預設 cp950）直接執行會 UnicodeDecodeError 的問題；檢查項目與判定邏輯不變，不影響任何 Collection 或 AS 編號。
+- 第二批第 09 張收錄最後生成修正版，排除早期版本。
+- scripts/validate.py：讀取文字檔時明確指定 UTF-8，修正在 Windows（預設 cp950）直接執行會 UnicodeDecodeError 的問題；檢查項目與判定邏輯不變。
+
+### Preserved
+- collections/01/ 所有檔案逐位元保持不變；既有授權保留所有權利。
+- 原始規格仍 v0.1；未決事項沒有被標成已定稿。
+
 
 ## 0.1.0 — 2026-10-09
 

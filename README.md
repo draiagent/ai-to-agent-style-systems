@@ -1,10 +1,10 @@
 # AS｜Agent Style Systems
 
-**讓Agent依據可追溯規格延續品牌風格。** 從AS Collection 01九套設計系統開始，持續收錄新批次。
+**讓Agent依據可追溯規格延續品牌風格。** 收錄 Collection 01、02 共 18 套設計系統，持續擴充。
 
-![版本](https://img.shields.io/badge/version-0.1.0-blue)
+![版本](https://img.shields.io/badge/version-0.2.0-blue)
 
-![AS Collection 01封面](collections/01/cards/01.png)
+![AS Collection 02封面](collections/02/cards/01.png)
 
 [風格展示頁](index.html) · [快速開始](docs/QUICKSTART.md) · [批次規則](docs/COLLECTION-POLICY.md) · [驗證紀錄](docs/VALIDATION.md)
 
@@ -17,11 +17,11 @@
 | 系列 | 風格編號 | 狀態 |
 |---|---|---|
 | [AS Collection 01](collections/01/README.md) | AS-001～AS-009 | 來源規格v0.1；含OPEN問題 |
-| AS Collection 02 | AS-010起接續 | 未建立，待實際素材 |
+| [AS Collection 02](collections/02/README.md) | AS-010～AS-018 | 來源規格 v0.1；25 項 OPEN |
 
 所有批次都在本Repo；修訂保留原編號，規則詳見[Collection政策](docs/COLLECTION-POLICY.md)。
 
-## 九套風格總覽
+## 18 套風格總覽
 
 | 風格 | 預覽 | 規格與指令 |
 |---|---|---|
@@ -35,6 +35,16 @@
 | **AS-008 潮汐實證**<br>Tidal Proof | <img src="collections/01/cards/09.png" width="180" alt="潮汐實證"> | [規格](collections/01/styles/AS-008/SPEC.md) · [指令](collections/01/styles/AS-008/PROMPT.md) |
 | **AS-009 橙鞍工坊**<br>Orange Atelier | <img src="collections/01/cards/10.png" width="180" alt="橙鞍工坊"> | [規格](collections/01/styles/AS-009/SPEC.md) · [指令](collections/01/styles/AS-009/PROMPT.md) |
 
+| **AS-010 澄光琉璃**<br>LUMIFLOW | <img src="collections/02/cards/02.png" width="180" alt="澄光琉璃"> | [規格](collections/02/styles/AS-010/SPEC.md) · [指令](collections/02/styles/AS-010/PROMPT.md) |
+| **AS-011 莓紫緞結**<br>KNOT | <img src="collections/02/cards/03.png" width="180" alt="莓紫緞結"> | [規格](collections/02/styles/AS-011/SPEC.md) · [指令](collections/02/styles/AS-011/PROMPT.md) |
+| **AS-012 焦茶裁字**<br>UMBER | <img src="collections/02/cards/04.png" width="180" alt="焦茶裁字"> | [規格](collections/02/styles/AS-012/SPEC.md) · [指令](collections/02/styles/AS-012/PROMPT.md) |
+| **AS-013 棗拱金珠**<br>ALCOVE | <img src="collections/02/cards/05.png" width="180" alt="棗拱金珠"> | [規格](collections/02/styles/AS-013/SPEC.md) · [指令](collections/02/styles/AS-013/PROMPT.md) |
+| **AS-014 青盒赭扣**<br>CLASP | <img src="collections/02/cards/06.png" width="180" alt="青盒赭扣"> | [規格](collections/02/styles/AS-014/SPEC.md) · [指令](collections/02/styles/AS-014/PROMPT.md) |
+| **AS-015 紫金對開**<br>FOLIO | <img src="collections/02/cards/07.png" width="180" alt="紫金對開"> | [規格](collections/02/styles/AS-015/SPEC.md) · [指令](collections/02/styles/AS-015/PROMPT.md) |
+| **AS-016 絳青疊瓣**<br>VESICA | <img src="collections/02/cards/08.png" width="180" alt="絳青疊瓣"> | [規格](collections/02/styles/AS-016/SPEC.md) · [指令](collections/02/styles/AS-016/PROMPT.md) |
+| **AS-017 紫銅經緯**<br>LOOM | <img src="collections/02/cards/09.png" width="180" alt="紫銅經緯"> | [規格](collections/02/styles/AS-017/SPEC.md) · [指令](collections/02/styles/AS-017/PROMPT.md) |
+| **AS-018 青釉金繕**<br>CELADON & GILT | <img src="collections/02/cards/10.png" width="180" alt="青釉金繕"> | [規格](collections/02/styles/AS-018/SPEC.md) · [指令](collections/02/styles/AS-018/PROMPT.md) |
+
 ## 怎麼用
 
 看風格 → 選一套 → 複製[共用指令](prompts/agent-task.txt)與該套附加指令 → 提供內容及素材 → 先做樣張 → 核對後展開系列。
@@ -46,10 +56,14 @@
 
 ## 規格與驗證邊界
 
-E為原圖明訂，O為視覺觀察，P為適配提案，Q為未決問題。88條規則與63張來源PNG可互相追溯；13項未決問題保留OPEN。介紹圖卡是生成示例，不作精確字型或色彩面積的驗證憑據。
+E為原圖明訂，O為視覺觀察，P為適配提案，Q為未決問題。第一批 88 條規則、第二批 63 個逐頁規則群，共 126 張來源 PNG 可追溯；兩批分別保留 13 與 25 項未決問題。介紹圖卡是生成示例，不作精確字型或色彩面積的驗證憑據。
 圖片、簡報、文件／文字、互動網頁、動畫、影片共六媒介已有[適配提案](docs/MEDIA-ADAPTATION.md)，尚未全面生成實測。適合設計溝通、教材及Agent任務；不適用直接宣稱正式品牌授權、精確工程Token或醫療成果。
 
-## 檔案入口
+## 第二批入口
+
+[Collection 02](collections/02/README.md) · [規格](collections/02/SPECIFICATION.md) · [Agent 指令](collections/02/AGENT-INSTRUCTIONS.md) · [社群文章](collections/02/SOCIAL-POST.md) · [未決事項](collections/02/OPEN-QUESTIONS.md)
+
+## 第一批檔案入口
 
 - [完整文字規格](collections/01/SPECIFICATION.md)、[未決登錄](collections/01/OPEN-QUESTIONS.md)
 - [10張圖卡](collections/01/cards/README.md)、[來源PNG雜湊清單](collections/01/sources/manifest.json)
@@ -59,8 +73,8 @@ E為原圖明訂，O為視覺觀察，P為適配提案，Q為未決問題。88�
 
 ## 版本與後續
 
-Repo版本 **0.1.0**，日期 **2026-10-09**；來源規格版本 **v0.1**。已建立公開 repo 與 tag v0.1.0；尚未建立 GitHub Release，未啟用 GitHub Pages。
-後續依實際需求解決OPEN問題、補齊字型與元件資產、逐項驗證媒介，再新增Collection 02。這些不列為已完成功能。
+Repo 版本 **0.2.0**，日期 **2026-10-12**；兩批来源規格均為 **v0.1**。下一個風格編號 **AS-019**。
+新增 Collection 02，第一批內容原樣保留。後續依實際需求處理 OPEN 問題與驗證各媒材。
 
 ## 授權與致謝
 

@@ -16,3 +16,7 @@
 見[LICENSE](../LICENSE)。公開發表和允許第三方重用是兩個不同決定；本 repo 採保留所有權利（All rights reserved），法律權利人為 AI Coach 益力康陳董，不授予開源權利。
 
 AI Coach 益力康陳董 x CGM Coach 血糖教練 | 2026 AI to Agent | 2027 AI to AGI Agent
+
+## Collection 02
+
+九個使用者提供 ZIP 各七張，原檔名與 SHA-256 見 [來源清單](../collections/02/sources/manifest.json)。十張介紹圖卡由本次對話生成，第九張使用最後修正版。首頁參考使用者提供的暖色玻璃風格圖片；公司 Logo 與陳董形象為使用者提供素材，不因收錄而授予第三方再利用權利。
