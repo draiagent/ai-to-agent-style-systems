@@ -2,7 +2,7 @@
 
 **讓Agent依據可追溯規格延續品牌風格。** 收錄 Collection 01、02 共 18 套設計系統，持續擴充。
 
-![版本](https://img.shields.io/badge/version-0.2.1-blue)
+![版本](https://img.shields.io/badge/version-0.2.2-blue)
 
 ## 兩批設計系統與完整介紹
 
@@ -26,7 +26,7 @@
 | [AS Collection 01](collections/01/README.md) | AS-001～AS-009 | 來源規格v0.1；含OPEN問題 |
 | [AS Collection 02](collections/02/README.md) | AS-010～AS-018 | 來源規格 v0.1；25 項 OPEN |
 
-所有批次都在本Repo；修訂保留原編號，規則詳見[Collection政策](docs/COLLECTION-POLICY.md)。
+所有批次都收錄在本Repo；Collection 02 另有[獨立 Repo](https://github.com/draiagent/ai-to-agent-style-systems-02)（v0.1.0，規格與來源圖相同，文件為較早的章節結構）。修訂保留原編號，規則詳見[Collection政策](docs/COLLECTION-POLICY.md)。
 
 ## 18 套風格總覽
 
@@ -80,7 +80,7 @@ E為原圖明訂，O為視覺觀察，P為適配提案，Q為未決問題。第�
 
 ## 版本與後續
 
-Repo 版本 **0.2.1**，日期 **2026-10-12**；兩批来源規格均為 **v0.1**。下一個風格編號 **AS-019**。
+Repo 版本 **0.2.2**，日期 **2026-10-12**；兩批来源規格均為 **v0.1**。下一個風格編號 **AS-019**。
 兩批使用相同文件介面；第一批完整介紹已恢復於首頁並保留原始路徑。原始規格、來源圖片與圖卡均保留。後續依實際需求處理 OPEN 問題與驗證各媒材。
 
 ## 授權與致謝

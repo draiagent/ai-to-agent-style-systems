@@ -52,6 +52,16 @@
 
 AI Coach 益力康陳董 x CGM Coach 血糖教練 | 2026 AI to Agent | 2027 AI to AGI Agent
 
+## 0.2.2 說明更新驗證
+
+日期：2026-10-12。本版只更新說明文件（README、COLLECTION-POLICY、AGENTS.md、首頁、CHANGELOG）與版本號，補上 Collection 02 另有獨立 Repo 的說明；沒有修改規格、來源圖、介紹圖卡或 scripts/validate.py。
+
+| 項目 | 結果 | 證據 |
+|---|---|---|
+| 結構驗證 | 通過 | `python scripts/validate.py`：18 套風格、126 張來源圖、20 張圖卡、88 條規則、63 個規則群、38 項 OPEN、654 個本地連結 |
+| 版本一致 | 通過 | VERSION、catalog.json、README 為 0.2.2 |
+| 獨立 Repo 內容比對 | 通過 | 與 ai-to-agent-style-systems-02 的 collections/02 相比，73 張 PNG 逐位元相同；規則與未決問題 ID、色碼與尺寸數值相同；文件章節結構不同 |
+
 ## 0.2.1 修正驗證
 
 兩批首頁入口與閱讀路徑一致；18 套 SPEC／PROMPT 章節結構已統一。654 個本地連結檢查通過。151 個圖片、原始規格與第一批原介紹檔案內容逐位元相同。第一批完整介紹新增標準路徑，原 docs/SOCIAL-POST.md 不變。遠端未更新；此為修正交付包。

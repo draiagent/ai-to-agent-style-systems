@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.2 — 2026-10-12
+
+### Changed
+- 補上 Collection 02 另有獨立 Repo [ai-to-agent-style-systems-02](https://github.com/draiagent/ai-to-agent-style-systems-02)（v0.1.0）的說明：README、docs/COLLECTION-POLICY.md、AGENTS.md、首頁。
+- COLLECTION-POLICY 規則 3 原寫「不另開 Repo」，改為註明獨立 Repo 的存在與兩邊的關係。
+
+### Preserved
+- 不修改任何規格、來源圖、介紹圖卡或 scripts/validate.py；授權維持保留所有權利。
+
 ## 0.2.1 — 2026-10-12
 
 ### Fixed
